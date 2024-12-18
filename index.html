@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Job Offer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .features, .user-journey {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .features div, .user-journey div {
+            flex: 1 1 calc(33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .features div img, .screenshots img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .features div h3, .user-journey div h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .screenshots img {
+            max-width: 200px;
+            margin: 10px;
+        }
+
+        .download {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .download img {
+            max-width: 200px;
+            margin: 20px auto;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Job Offer</h1>
+        <p>Автоматизируйте подачу заявок на вакансии и отслеживайте их статус легко и просто.</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Ключевые функции</h2>
+            <div class="features">
+                <div>
+                    <!-- <img src="parsing_resume.jpg" alt="Парсинг резюме"> -->
+                    <h3>Парсинг резюме</h3>
+                    <p>Загрузите своё резюме в формате PDF, и наш сервис автоматически извлечёт основные данные.</p>
+                </div>
+                <div>
+                    <!-- <img src="apply_all.jpg" alt="Подача на все вакансии"> -->
+                    <h3>Подача на все вакансии</h3>
+                    <p>Экономьте время, подавая заявки на все подходящие вакансии одним нажатием.</p>
+                </div>
+                <div>
+                    <!-- <img src="tracking.jpg" alt="Отслеживание заявок"> -->
+                    <h3>Отслеживание заявок</h3>
+                    <p>Следите за статусом своих заявок прямо из личного кабинета.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Путь пользователя</h2>
+            <div class="user-journey">
+                <div>
+                    <h3>1. Регистрация</h3>
+                    <p>Создайте аккаунт за несколько минут, чтобы начать работу.</p>
+                </div>
+                <div>
+                    <h3>2. Подключение</h3>
+                    <p>Свяжите свой аккаунт с платформами вакансий, такими как hh.ru, для удобной интеграции.</p>
+                </div>
+                <div>
+                    <h3>3. Загрузка резюме</h3>
+                    <p>Загрузите своё резюме в формате PDF или заполните данные вручную.</p>
+                </div>
+                <div>
+                    <h3>4. Подбор вакансий</h3>
+                    <p>Используйте фильтры для поиска лучших возможностей или подавайте заявки на все подходящие вакансии сразу.</p>
+                </div>
+                <div>
+                    <h3>5. Отслеживание статуса</h3>
+                    <p>Следите за статусом заявок от "На рассмотрении" до "Принят".</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Скриншоты</h2>
+            <div class="screenshots">
+                <img src="screenshot1.jpg" alt="Скриншот 1">
+                <img src="screenshot2.jpg" alt="Скриншот 2">
+                <img src="screenshot3.jpg" alt="Скриншот 3">
+            </div>
+        </section>
+
+        <section class="download">
+            <h2>Скачайте приложение</h2>
+            <p>Отсканируйте QR-код ниже, чтобы начать использовать Your Job Offer уже сегодня!</p>
+            <img src="qr_code.png" alt="QR-код">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Job Offer. Все права защищены.</p>
+    </footer>
+</body>
+</html>
